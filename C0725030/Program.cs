@@ -16,8 +16,8 @@ namespace C0725030
             //Assignment 2
             //March 7, 2019
 
-            DelegateExercises myDelegate1 = new DelegateExercises();
-            myDelegate1.Method2();
+            DelegateExercises delegateExercises = new DelegateExercises();
+            delegateExercises.Method2();
         }
     }
 
