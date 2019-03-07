@@ -16,9 +16,6 @@ namespace C0725030
             //Assignment 2
             //March 7, 2019
 
-            DelegateExercises delegateExercises = new DelegateExercises();
-            delegateExercises.Method3();
-            Console.ReadLine();
 
         }
     }
@@ -27,18 +24,11 @@ namespace C0725030
 
     public class DelegateExercises
     {        
-        void Method1()
+        void Method3()
         {
-            System.Console.WriteLine("Method1");
+            System.Console.WriteLine(MyDelegate.ToString());
 
 
-        }
-
-        public void Method3()
-        {
-            MyDelegate myDelegate = new MyDelegate(Method1);
-            myDelegate();
-            System.Console.WriteLine(myDelegate.ToString());
         }
     }
 }
